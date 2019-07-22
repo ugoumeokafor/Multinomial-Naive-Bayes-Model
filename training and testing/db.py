@@ -3,11 +3,11 @@
 ######################################################
 
 import psycopg2
-__author__ ="Guixing"
+__author__ ="ugo"
 
 
 class postgres():
-    def __init__(self,host='localhost',database='postgres',schema='francis',user='postgres',passwd='doesql'):
+    def __init__(self,host='localhost',database='postgres',schema='francis',user='postgres',passwd='***'):
         self.host = host
         self.database = database
         self.schema = schema
